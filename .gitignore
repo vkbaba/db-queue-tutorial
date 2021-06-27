@@ -1,11 +1,12 @@
 # demo
 demo/HELP.md
 demo/target/
-demo/!.mvn/wrapper/maven-wrapper.jar
+demo/.mvn/
 demo/!**/src/main/**/target/
 demo/**/src/test/**/target/
 demo/mvnw
 demo/mvnw.cmd
+demo/.gitignore
 
 ### STS ###
 demo/.apt_generated
@@ -28,21 +29,23 @@ demo/nbbuild/
 demo/dist/
 demo/nbdist/
 demo/.nb-gradle/
-demobuild/
+demo/build/
 demo!**/src/main/**/build/
 demo!**/src/test/**/build/
 
 ### VS Code ###
 demo/.vscode/
+demo/.devcontainer/
 
 # demo-consumer
 demo-consumer/HELP.md
 demo-consumer/target/
-demo-consumer/!.mvn/wrapper/maven-wrapper.jar
+demo-consumer/.mvn
 demo-consumer/!**/src/main/**/target/
 demo-consumer/**/src/test/**/target/
 demo-consumer/mvnw
 demo-consumer/mvnw.cmd
+demo-consumer/.gitignore
 
 ### STS ###
 demo-consumer/.apt_generated
@@ -65,9 +68,10 @@ demo-consumer/nbbuild/
 demo-consumer/dist/
 demo-consumer/nbdist/
 demo-consumer/.nb-gradle/
-demo-consumerbuild/
+demo-consumer/build/
 demo-consumer!**/src/main/**/build/
 demo-consumer!**/src/test/**/build/
 
 ### VS Code ###
 demo-consumer/.vscode/
+demo-consumer/.devcontainer/
