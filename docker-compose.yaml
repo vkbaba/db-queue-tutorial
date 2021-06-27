@@ -45,3 +45,19 @@ services:
     ports:
       - 5672:5672
       - 15672:15672
+  db-queue-tutorial:
+    image: db-queue-tutorial
+    container_name:  db-queue-tutorial
+    hostname: db-queue-tutorial
+    restart: always
+    environment:
+      CLIENT_IP: 1.1.1.1
+    ports:
+      - 8080:8080
+  db-queue-tutorial-consumer:
+    image: db-queue-tutorial-consumer
+    container_name:  db-queue-tutorial-consumer
+    hostname: db-queue-tutorial-consumer
+    restart: always
+    environment:
+      CLIENT_IP: 1.1.1.1
