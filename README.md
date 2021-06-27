@@ -1,5 +1,5 @@
 # db-queue-tutorial
-This demo application is a tutorial to study how mysql, redis, and rabbitmq works.
+This demo application is a tutorial to study how mysql, redis, and rabbitmq work.
 
 Note that my environment is win10 so some commands below are slightly different for other operating systems.
 
