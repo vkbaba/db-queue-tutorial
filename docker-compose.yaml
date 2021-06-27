@@ -1,0 +1,47 @@
+version: '3.8'
+services:
+  # redis
+  redis:
+    image: redis:6.2.4
+    container_name: redis
+    hostname: redis
+    restart: always
+    ports:
+      - 6379:6379
+  redis-commander:
+    image: rediscommander/redis-commander
+    container_name: redis-commander
+    hostname: redis-commander
+    restart: always
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - 8091:8081
+  # mysql
+  db:
+    image: mysql:8.0.25
+    container_name:  mysql
+    hostname: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: demo
+      MYSQL_ROOT_PASSWORD: VMware1!
+    ports:
+      - 3306:3306
+  adminer:
+    image: adminer:4.8.1
+    container_name: mysql-adminer
+    hostname: mysql-adminer
+    restart: always
+    ports:
+      - 8092:8080
+  # rabbitmq
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name:  rabbitmq
+    hostname: rabbitmq
+    restart: always
+    ports:
+      - 5672:5672
+      - 15672:15672

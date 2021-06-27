@@ -1,0 +1,77 @@
+# demo
+demo/HELP.md
+demo/target/
+demo/.mvn/
+demo/!**/src/main/**/target/
+demo/**/src/test/**/target/
+demo/mvnw
+demo/mvnw.cmd
+demo/.gitignore
+
+### STS ###
+demo/.apt_generated
+demo/.classpath
+demo/.factorypath
+demo/.project
+demo/.settings
+demo/.springBeans
+demo/.sts4-cache
+
+### IntelliJ IDEA ###
+demo/.idea
+demo/*.iws
+demo/*.iml
+demo/*.ipr
+
+### NetBeans ###
+demo/nbproject/private/
+demo/nbbuild/
+demo/dist/
+demo/nbdist/
+demo/.nb-gradle/
+demo/build/
+demo!**/src/main/**/build/
+demo!**/src/test/**/build/
+
+### VS Code ###
+demo/.vscode/
+demo/.devcontainer/
+
+# demo-consumer
+demo-consumer/HELP.md
+demo-consumer/target/
+demo-consumer/.mvn/
+demo-consumer/!**/src/main/**/target/
+demo-consumer/**/src/test/**/target/
+demo-consumer/mvnw
+demo-consumer/mvnw.cmd
+demo-consumer/.gitignore
+
+### STS ###
+demo-consumer/.apt_generated
+demo-consumer/.classpath
+demo-consumer/.factorypath
+demo-consumer/.project
+demo-consumer/.settings
+demo-consumer/.springBeans
+demo-consumer/.sts4-cache
+
+### IntelliJ IDEA ###
+demo-consumer/.idea
+demo-consumer/*.iws
+demo-consumer/*.iml
+demo-consumer/*.ipr
+
+### NetBeans ###
+demo-consumer/nbproject/private/
+demo-consumer/nbbuild/
+demo-consumer/dist/
+demo-consumer/nbdist/
+demo-consumer/.nb-gradle/
+demo-consumer/build/
+demo-consumer!**/src/main/**/build/
+demo-consumer!**/src/test/**/build/
+
+### VS Code ###
+demo-consumer/.vscode/
+demo-consumer/.devcontainer/
