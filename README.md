@@ -19,7 +19,7 @@ Note that my environment is win10 so some commands below are slightly different 
     - http://localhost:8091 
 10. docker-compose down 
 
-## Cool References
+## Some Cool References
 https://springhow.com/spring-boot-redis-cache/
 
 https://kennay-kermani.medium.com/simple-pub-sub-implementation-with-spring-boot-docker-and-rabbitmq-4ed7461de239
