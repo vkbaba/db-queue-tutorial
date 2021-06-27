@@ -3,7 +3,7 @@ demo/HELP.md
 demo/target/
 demo/.mvn/
 demo/!**/src/main/**/target/
-demo/**/src/test/**/target/
+demo/**/src/test/
 demo/mvnw
 demo/mvnw.cmd
 demo/.gitignore
@@ -42,7 +42,7 @@ demo-consumer/HELP.md
 demo-consumer/target/
 demo-consumer/.mvn/
 demo-consumer/!**/src/main/**/target/
-demo-consumer/**/src/test/**/target/
+demo-consumer/**/src/test/
 demo-consumer/mvnw
 demo-consumer/mvnw.cmd
 demo-consumer/.gitignore
