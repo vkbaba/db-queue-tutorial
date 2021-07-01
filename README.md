@@ -8,7 +8,7 @@ Note that my environment is win10 so some commands below are slightly different 
 2. docker build -t db-queue-tutorial ./demo/
 3. docker build -t db-queue-tutorial-consumer ./demo-consumer/
 4. docker-compose up -d
-5. curl.exe -X POST http://localhost:8080/items/ -H "cache-control: no-cache" -H "content-type: application/json" -d '{\"productName\": \"T-shirt\",\"price\": 1200}'
+5. curl.exe -X POST http://localhost:8080/items/ -H "cache-control: no-cache" -H "content-type: application/json" -d '{&#92;"productName&#92;": &#92;"T-shirt&#92;",&#92;"price&#92;": 1200}'
 6. Access rabbitmq to check the data in a queue
     - http://localhost:15672/ user:guest, pass:guest
 7. Access mysql adminer to check the data in DB
