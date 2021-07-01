@@ -11,12 +11,15 @@ Note that my environment is win10 so some commands below are slightly different 
 5. curl.exe -X POST http://localhost:8080/items/ -H "cache-control: no-cache" -H "content-type: application/json" -d '{&#92;"productName&#92;": &#92;"T-shirt&#92;",&#92;"price&#92;": 1200}'
 6. Access rabbitmq to check the data in a queue
     - http://localhost:15672/ user:guest, pass:guest
+![rabbitmq](https://github.com/vkbaba/db-queue-tutorial/blob/main/images/rabbitmq.png)
 7. Access mysql adminer to check the data in DB
     - http://localhost:8092/ user:root, pass:VMware1!
+![mysql](https://github.com/vkbaba/db-queue-tutorial/blob/main/images/mysql.png)
 8. Get the data from mysql to chache the data
     - http://localhost:8080/items/1
 9. Access redis-commander to check the data on a cache
     - http://localhost:8091 
+![redis](https://github.com/vkbaba/db-queue-tutorial/blob/main/images/redis.png)
 10. docker-compose down 
 
 ## Some Cool References
