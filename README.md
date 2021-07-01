@@ -2,7 +2,7 @@
 This demo application is a tutorial to study how mysql, redis, and rabbitmq work.
 
 Note that my environment is win10 so some commands below are slightly different for other operating systems.
-
+![architecture](https://github.com/vkbaba/db-queue-tutorial/blob/main/images/architecture.png)
 ## How to use
 1. Change CLIENT_IP in docker-compose.yaml to your client IP address like 192.168.1.10
 2. docker build -t db-queue-tutorial ./demo/
