@@ -15,7 +15,7 @@ Note that my environment is win10 so some commands below are slightly different 
 7. Access mysql adminer to check the data in DB
     - http://localhost:8092/ user:root, pass:VMware1!
 ![mysql](https://github.com/vkbaba/db-queue-tutorial/blob/main/images/mysql.png)
-8. Get the data from mysql to chache the data
+8. Get the data from mysql to cache the data
     - http://localhost:8080/items/1
 9. Access redis-commander to check the data on a cache
     - http://localhost:8091 
